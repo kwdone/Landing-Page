@@ -10,11 +10,61 @@
     padding: 10px;
 }
 
+.heading .fbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 200px;
+}
+
 .heading a {
     color: #F9FAF8;
     text-decoration: none;
+    font-size: 12px;
 }
 
 .heading .logo {
     font-weight: 900;
+    margin-left: 200px;
+    font-size: 16px;
+}
+
+.horizon-fbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-fbox.info {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    flex-grow: 1 1 auto;
+}
+
+.horizontal-fbox.info {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 60px 205px;
+    max-width: 400px;
+}
+
+.horizontal-fbox.info button {
+    color: white;
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: none;
+}
+
+.horizontal-fbox.info h1 {
+    font-size: 40px;
+}
+
+.horizontal-fbox.info p {
+    font-size: 16px;
+}
+
+.vertical-fbox.info img {
+    padding: 100px;
 }
