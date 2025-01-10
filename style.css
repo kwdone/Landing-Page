@@ -39,12 +39,20 @@
     background-color: #1f2937;
     flex-direction: row;
     flex-grow: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-fbox.info img {
+    width: 500px;
+    height: 200px;
+    margin-right: 100px;
 }
 
 .horizontal-fbox.info {
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 60px 205px;
+    padding: 60px 150px;
     max-width: 400px;
 }
 
@@ -65,6 +73,97 @@
     font-size: 16px;
 }
 
-.vertical-fbox.info img {
-    padding: 100px;
+.horizontal-fbox.info .name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.picture-box {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.info h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.image-holder {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.image-holder img {
+    border: 3px solid blue;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 250px;
+}
+.quote .text {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote .footer {
+    text-align: right;
+    font-weight: 800;
+    font-size: 20px;
+    color: #1F2937;
+}
+
+.noti-outer {
+    background-color: #FFFFFF;
+    padding: 40px 150px;
+}
+
+.noti {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 30px 120px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noti .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.noti button {
+    background-color: transparent;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    /*padding: 0px 10px;*/
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.footing {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+    text-align: center;
 }
